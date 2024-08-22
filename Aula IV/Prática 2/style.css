@@ -1,8 +1,6 @@
 /*AULA IV - 15/08/2024*/
 
-body {
-    background-color:darkslategray
-}
+
 
 div {
     font-weight: bold;
@@ -19,27 +17,21 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif    ;
 }
 
-#div1 {
-    background-color: aqua;
-}
-
-#div2 {
-    background-color: yellow;
-}
-
-#div3 {
-    background-color: green;
-}
-
 legend {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     text-align: center;
 }
 
+ fieldset {
+    background-color:lightgray; 
+ }
+
 form {
- background-color:orangered;
- line-height: 200%;
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 label {
@@ -49,5 +41,4 @@ label {
 
 input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
